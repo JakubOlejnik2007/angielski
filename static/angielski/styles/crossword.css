@@ -1,0 +1,55 @@
+main .crossword {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main canvas {
+  width: 700px;
+  height: 500px;
+  border: 5px coral dashed;
+}
+
+main .controls {
+  margin: 20px;
+}
+main .controls input {
+  padding: 10px;
+  border-radius: 10px;
+}
+main .arrow {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+main .arrow > span {
+  font-family: monospace;
+  padding: 15px;
+  font-size: 20px;
+  border: 1px coral solid;
+  background-color: #1d1d1d;
+  color: coral;
+  transition: 1s ease-in-out;
+}
+main .arrow > span:hover {
+  font-family: monospace;
+  padding: 15px;
+  font-size: 20px;
+  background-color: coral;
+  color: #1d1d1d;
+  border: 1px #1d1d1d solid;
+  transition: 0.5s ease-in-out;
+}
+main .result,
+main .questions {
+  width: 80%;
+  margin: 0 auto;
+  font-size: large;
+  text-align: justify;
+}
+main .result #showWord {
+  margin: 10px;
+  font-size: 30px;
+  font-family: monospace;
+  color: mintcream;
+}

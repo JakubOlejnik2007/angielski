@@ -1,0 +1,28 @@
+main select, input[type=submit], input[type=reset] {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+main li{
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+main ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+main input[type=submit], main input[type=reset] {
+
+}
+.controls {
+    text-align: center;
+    margin: 0 auto;
+}
+.good {
+    background-color: chartreuse;
+}
+.bad {
+    background-color: crimson;
+}
